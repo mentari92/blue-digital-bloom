@@ -66,11 +66,11 @@ const About = () => {
                 </div>
               </div>
               <div className="order-1 md:order-2 relative">
-                <div className="relative mx-auto w-80 h-80 md:w-96 md:h-96">
+                <div className="relative mx-auto w-80 h-96 md:w-96 md:h-[28rem]">
                   <img
                     src="/lovable-uploads/d8b35abc-5412-4417-93e7-d5ce1d026081.png"
                     alt="Mentari Rahman - Digital Marketing Expert"
-                    className="w-full h-full object-cover rounded-2xl shadow-lg"
+                    className="w-full h-full object-cover object-top rounded-2xl shadow-lg"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary-600/20 to-transparent rounded-2xl"></div>
                 </div>
