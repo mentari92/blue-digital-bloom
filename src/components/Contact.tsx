@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Phone, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -77,18 +77,6 @@ const Contact = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">+62 812 3456 7890</p>
-              </CardContent>
-            </Card>
-
-            <Card className="hover:shadow-lg transition-shadow duration-300">
-              <CardHeader>
-                <CardTitle className="flex items-center text-primary-600">
-                  <MapPin className="w-6 h-6 mr-3" />
-                  Location
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-700">Jakarta, Indonesia</p>
               </CardContent>
             </Card>
           </div>
