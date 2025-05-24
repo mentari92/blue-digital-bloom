@@ -128,8 +128,8 @@ const About = () => {
               </div>
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=500"
-                  alt="Digital Marketing Professional Workspace"
+                  src="/lovable-uploads/3e520fd5-7820-47db-8efc-77f947af499f.png"
+                  alt="Mentari Rahman with colleagues in a collaborative work environment"
                   className="rounded-lg shadow-lg"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-transparent rounded-lg"></div>
